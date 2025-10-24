@@ -11,4 +11,12 @@ function makeBoard(num, board) {
   }
 }
 
+function paintBoard(e) {
+  if (e.target.classList.contains("square")) {
+    e.target.style.backgroundColor = "red";
+  }
+}
+
 makeBoard(16, board);
+
+board.addEventListener("mouseover", paintBoard);
