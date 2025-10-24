@@ -14,3 +14,16 @@
   justify-content: space-between;
   align-items: center;
 }
+
+#board {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 980px;
+}
+
+.square {
+  background-color: blue;
+  flex-basis: 61px;
+  height: 61px;
+  border: 1px solid pink;
+}
