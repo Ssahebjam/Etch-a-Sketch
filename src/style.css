@@ -23,7 +23,6 @@
 
 .square {
   background-color: blue;
-  flex-basis: 61px;
-  height: 61px;
+  height: auto;
   border: 1px solid pink;
 }
